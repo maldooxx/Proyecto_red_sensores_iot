@@ -38,6 +38,21 @@ public class IngestaSensores {
         // Los experimentos son parte de esta misma aplicación.
         //
         ejecutarExperimentosSemanaTres();
+        // =====================================================
+        // SEMANA 4 - ORDENAMIENTOS Y EFICIENCIA
+        // =====================================================
+        System.out.println();
+        System.out.println("====================================================");
+        System.out.println("       SEMANA 4 - ORDENAMIENTOS");
+        System.out.println("====================================================");
+        System.out.println();
+
+        BancoDeOrdenamiento.experimentoUno();
+        BancoDeOrdenamiento.experimentoDos();
+        BancoDeOrdenamiento.experimentoTres();
+        BancoDeOrdenamiento.experimentoCuatro();
+        BancoDeOrdenamiento.experimentoCinco();
+     // <-- Esta es la llave de cierre del main
     }
 
     /**
